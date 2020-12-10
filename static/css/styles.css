@@ -1,0 +1,239 @@
+:root {
+  --color-btn-default: #a5a5a5;
+  --color-btn-green: rgb(61, 235, 61);
+  --color-btn-red: rgb(255, 82, 82);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #ecfaff;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+header .header-title {
+  font-weight: bold;
+  padding: 1.2rem;
+}
+
+.nav-top-menu {
+  width: 100%;
+}
+
+.nav-top-menu > .menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+  padding: 0 24px;
+  list-style: none;
+  background: #c3ebf9;
+}
+
+.menu > .menu-items {
+  padding: 0 16px;
+  width: 50%;
+  text-align: center;
+}
+
+.menu > .menu-items.current {
+  background-color: #6acff3;
+}
+
+.menu > .menu-items.current a {
+  text-decoration: underline;
+}
+
+.menu-items a {
+  font-size: 60%;
+  color: black;
+}
+
+section.container {
+  padding: 0 1.6rem 3rem;font-size: 1.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.table-list {
+  width: 100%;
+}
+
+table.table-result {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+.table-result thead {
+  background-color: #353535;
+  color: white;
+}
+
+.table-result th,
+.table-result td {
+  font-size: .6rem;
+  padding: 8px;
+}
+
+.table-result tr td {
+  text-align: center;
+}
+
+.btn {
+  color: black;
+  
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer;
+  
+  font-size: 0.6rem;
+  padding: 8px;
+  margin: 4px;
+}
+
+.btn i {
+  font-size: 0.7rem;
+}
+
+.btn.btn-green {
+  background-color: var(--color-btn-green);
+  color: white;
+}
+
+.btn.btn-red {
+  background-color: var(--color-btn-red);
+  color: white;
+}
+
+.form {
+  background-color: #e0e0e0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 24px 24px 0;
+  border-radius: 16px;
+}
+
+.form .form-input {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  padding: 8px 0 ;
+}
+
+.form label {
+  font-weight: bold;
+  font-size: 1rem;
+
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  
+  color: #848484;
+  cursor: text;
+
+  transition: font-size 0.4s;
+}
+
+.form input {
+  font-size: 0.8rem;
+  min-width: 480px;
+  min-height: 48px;
+  padding: 16px;
+
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  transition: padding 0.5s;
+}
+
+.form input[name="gender"] {
+  display: none;
+}
+
+.form-input .input label {
+  position: relative;
+
+  background-color: #9d9dff;
+  color: white;
+
+  padding: 8px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+label.label-top,
+label.label-top-flight {
+  font-size: 0.5rem;
+  top: 16px;
+  left: 16px;
+}
+
+input.input-filled,
+input.input-filled-flight {
+  padding-top: 32px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-input .input label {
+  left: 0;
+}
+
+.form-input .input label.gender-selected {
+  background-color: #0000ff;
+  border: 1px solid #0000ff;
+}
+
+.btn.btn-save {
+  width: 100%;
+  margin-top: 40px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--color-btn-green);
+  color: white;
+}
+.row-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-input .form-input input {
+  min-width: 210px;
+}
