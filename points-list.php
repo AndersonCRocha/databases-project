@@ -26,11 +26,11 @@
 <header>
     <nav class="nav-top-menu">
         <ul class="menu">
-            <li class="menu-items current">
-                <a href="#">Registro de ponto</a>
-            </li>
             <li class="menu-items">
                 <a href="/">Funcionários</a>
+            </li>
+            <li class="menu-items current">
+                <a href="#">Registro de ponto</a>
             </li>
         </ul>
     </nav>

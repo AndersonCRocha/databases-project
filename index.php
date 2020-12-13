@@ -52,11 +52,11 @@
 <header>
     <nav class="nav-top-menu">
         <ul class="menu">
-            <li class="menu-items">
-                <a href="points-list.php">Registro de ponto</a>
-            </li>
             <li class="menu-items current">
                 <a href="#">Funcionários</a>
+            </li>
+            <li class="menu-items">
+                <a href="points-list.php">Registro de ponto</a>
             </li>
         </ul>
     </nav>
