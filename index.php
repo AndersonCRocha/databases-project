@@ -4,8 +4,8 @@
     $cassandraDAO = new CassandraDAO();
 
     $GENDERS = [
-        'male' => 'Masculino',
-        'female' => 'Feminino'
+        'M' => 'Masculino',
+        'F' => 'Feminino'
     ];
     $isPostMethod = isset($_POST['document']);
 

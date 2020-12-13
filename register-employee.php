@@ -111,8 +111,8 @@
                             type="radio"
                             name="gender"
                             id="gender_male"
-                            value="male"
-                            <?php echo isset($employee['gender']) && ($employee['gender'] === 'male') ? 'checked' : ''; ?>
+                            value="M"
+                            <?php echo isset($employee['gender']) && ($employee['gender'] === 'M') ? 'checked' : ''; ?>
                         >
 
                         <label for="gender_female">Mulher</label>
@@ -120,8 +120,8 @@
                             type="radio"
                             name="gender"
                             id="gender_female"
-                            value="female"
-                            <?php echo isset($employee['gender']) && ($employee['gender'] === 'female') ? 'checked' : ''; ?>
+                            value="F"
+                            <?php echo isset($employee['gender']) && ($employee['gender'] === 'F') ? 'checked' : ''; ?>
                         >
                     </div>
                 </div>
