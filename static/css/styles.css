@@ -168,7 +168,9 @@ table.table-result {
   transition: font-size 0.4s;
 }
 
-.form input {
+.form input,
+.form select,
+.form textarea {
   font-size: 0.8rem;
   min-width: 480px;
   min-height: 48px;
@@ -178,6 +180,16 @@ table.table-result {
   border: none;
   border-radius: 8px;
   transition: padding 0.5s;
+}
+
+.form textarea {
+  padding-top: 28px;
+  height: 180px;
+  resize: none;
+}
+
+.form select {
+  padding-top: 28px;
 }
 
 .form input[name="gender"] {
@@ -236,4 +248,8 @@ input.input-filled-flight {
 
 .row-input .form-input input {
   min-width: 210px;
+}
+
+select option {
+  font-size: 20px;
 }
