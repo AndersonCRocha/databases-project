@@ -78,10 +78,9 @@
 
                 <div class="form-input">
                     <textarea
-                            name="note"
-                            id="note"
-                            maxlength="120"
-                            required
+                        name="note"
+                        id="note"
+                        maxlength="120"
                     ></textarea>
                     <label for="note">Observações</label>
                 </div>

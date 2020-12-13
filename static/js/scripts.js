@@ -32,4 +32,11 @@ $(document).ready(function () {
     $(this).parent().find(`label[for="${$(this).attr('id')}"]`).addClass('gender-selected')
   })
 
+
+  $('#register-employee').submit(function (event) {
+    if ($('input[name="gender"]:checked').length === 0) {
+      alert('Selecione um sexo')
+      event.preventDefault()
+    }
+  })
 })

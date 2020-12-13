@@ -103,7 +103,7 @@ class CassandraDAO
 
             return $pointsRegister;
         } catch (Cassandra\Exception $e) {
-            return false;
+            return [];
         }
     }
 

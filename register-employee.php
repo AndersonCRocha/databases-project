@@ -40,7 +40,7 @@
 <main>
     <section class="container">
         <div class="form">
-            <form method="POST" action="/">
+            <form method="POST" action="/" id= "register-employee">
                 <div class="form-input">
                     <input
                         type="text"
@@ -50,6 +50,7 @@
                         autocomplete="off"
                         class="cpf"
                         required
+                        <?php echo isset($employee['document']) ? 'readonly="readonly"' : ''; ?>
                     >
                     <label for="document">Documento (CPF)</label>
                 </div>
